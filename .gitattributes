@@ -1,1 +1,1 @@
-Histogram/** filter=lfs diff=lfs merge=lfs -text
+Histogram/SNPsNS.csv filter=lfs diff=lfs merge=lfs -text
