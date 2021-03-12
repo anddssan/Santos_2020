@@ -28,10 +28,10 @@ head(alist[[1]])
 # Draw bar plots. The individuals are grouped first according to V3 
 # (vector/collumn 3 in the ALL.txt file) and then by V1.
 qdata1 <- plotQMultiline(alist,grplab=labels[,c(2,3)],ordergrp=T,
-                         outputfilename="AdmixtureResults",lpp=4,barsize=1,
-                         grplabsize=3,returndata=T,showindlab=T,
-                         barbordersize=0.4,useindlab=T,barbordercolour="white",
-                         indlabsize=8, showlegend = T)
+                         outputfilename="Output",lpp=4,barsize=1,grplabsize=3,
+                         returndata=T,showindlab=T,barbordersize=0.4,
+                         useindlab=T,barbordercolour="white",indlabsize=8,
+                         showlegend=T)
 
 # The output images were further merged or separated using an image 
 # editor (in order to higlight populations or single individuals).
